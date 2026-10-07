@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELORIA – Luxury Real Estate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="curtain" id="curtain"><span></span><span></span><span></span><span></span><b>ELORIA</b></div>
+
+<nav id="nav">
+  <a href="#/" class="logo" data-link aria-label="Eloria home"><span class="logo-mark" aria-hidden="true">E</span><span>ELORIA</span></a>
+  <div class="links" id="links">
+    <a href="#/" data-link>Home</a>
+    <a href="#/properties" data-link>Properties</a>
+    <a href="#/about" data-link>About</a>
+    <a href="#/contact" data-link>Contact</a>
+  </div>
+  <a href="#/contact" class="cta nav-cta" data-link>Book a viewing</a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+</nav>
+
+<main>
+<!-- ================= HOME ================= -->
+<section class="page" data-page="/">
+  <header class="hero">
+    <div class="ph hero-photo active"></div>
+    <div class="ph hero-photo"></div>
+    <div class="wrap">
+      <h1><span class="line"><i>Designing Spaces</i></span><span class="line"><i>That Define</i></span><span class="line"><i>Luxury</i></span></h1>
+      <p>Discover exceptional homes, refined interiors and extraordinary living experiences in the world’s most desirable locations.</p>
+      <a href="#/properties" class="btn light" data-link><span>Explore Homes</span><em>→</em></a>
+      <div class="stats">
+        <div><b data-count="320">0</b><small>Homes sold</small></div>
+        <div><b data-count="18">0</b><small>Countries</small></div>
+        <div><b data-count="12">0</b><small>Years of craft</small></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="wrap grid">
+      <div><span class="tag reveal">About us</span><div class="ph small reveal d1" style="background-image:var(--img-dining)"></div></div>
+      <div>
+        <h2 class="reveal">Timeless Interiors Elevated Living</h2>
+        <p class="reveal d1">We create elevated living experiences through timeless interiors and carefully selected homes. Every space is designed with comfort, sophistication and effortless flow in mind.</p>
+        <a href="#/about" class="btn reveal d2" data-link><span>More About Us</span><em>›</em></a>
+      </div>
+      <div class="ph tall reveal d2" style="background-image:var(--img-kitchen)"></div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="tag">Featured residences</span>
+        <h2>Spaces shaped by light, texture and calm.</h2>
+      </div>
+      <div class="gallery-grid reveal d1">
+        <div class="photo wide" style="background-image:url('images/jason-briscoe-UV81E0oXXWQ-unsplash.jpg');">
+          <div class="caption"><strong>Oceanfront Villa</strong><span>Malibu · 5 Beds</span></div>
+        </div>
+        <div class="photo" style="background-image:url('images/frames-for-your-heart-zSG-kd-L6vw-unsplash.jpg');">
+          <div class="caption"><strong>Serene Suite</strong><span>Paris · 3 Beds</span></div>
+        </div>
+        <div class="photo" style="background-image:url('images/naksha-banwao-QSXDXnYE8WQ-unsplash.jpg');">
+          <div class="caption"><strong>Modern Kitchen</strong><span>Zurich · Design</span></div>
+        </div>
+        <div class="photo tall" style="background-image:url('images/lotus-design-n-print-wRzBarqn3hs-unsplash.jpg');">
+          <div class="caption"><strong>Private Residence</strong><span>Dubai · 4 Beds</span></div>
+        </div>
+        <div class="photo" style="background-image:url('images/francesca-tosolini-qnSTxcs0EEs-unsplash.jpg');">
+          <div class="caption"><strong>Curated Living</strong><span>London · Skyline</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="wrap grid">
+      <div class="tabs reveal">
+        <button class="on">Residential Design</button><button>Luxury Property Advisory</button><button>Bespoke Furniture</button><button>Lighting Curation</button><button>Art &amp; Decor</button>
+        <a href="#/properties" class="btn" data-link><span>See All Projects</span><em>›</em></a>
+      </div>
+      <ul class="acc reveal d1" id="acc">
+        <li class="open"><button><span>01</span>Residential Design</button><div class="body"><div><div class="ph" style="background-image:var(--img-living)"></div><p>Thoughtfully designed residential spaces that blend comfort, functionality and modern aesthetics to enhance everyday lifestyle experiences.</p></div></div></li>
+        <li><button><span>02</span>High-Performance Collaboration</button><div class="body"><div><p>Architects, engineers and craftspeople working as one team to deliver exacting results on schedule.</p></div></div></li>
+        <li><button><span>03</span>Curated Private Art Collections</button><div class="body"><div><p>Original works sourced and placed to give every room a story and a focal point.</p></div></div></li>
+        <li><button><span>04</span>Heritage Material Sourcing</button><div class="body"><div><p>Stone, timber and textiles chosen for provenance, longevity and tactile warmth.</p></div></div></li>
+        <li><button><span>05</span>Minimalist Spatial Restoration</button><div class="body"><div><p>Quietly restoring light, proportion and flow to existing homes without losing their character.</p></div></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="feature" id="feature">
+    <div class="ph" id="fImg"></div>
+    <div class="peek"><span id="peekT">Infinity View Concept</span><div class="ph" id="peekI"></div></div>
+    <div class="card">
+      <h3 id="fT"></h3><div class="loc" id="fL"></div><p id="fP"></p>
+      <div class="foot"><button id="prev" aria-label="Previous">‹</button><button id="next" aria-label="Next">›</button><div class="dots" id="dots"></div><span class="price" id="fPr"></span></div>
+    </div>
+  </section>
+</section>
+
+<!-- ================= PROPERTIES ================= -->
+<section class="page" data-page="/properties">
+  <div class="sub"><div class="wrap"><h1>Find your next address</h1><p>A hand-picked collection of residences, each chosen for its design, setting and character.</p></div></div>
+  <div class="wrap">
+    <div class="filters" id="filters"><button class="on" data-f="all">All</button><button data-f="villa">Villas</button><button data-f="apartment">Apartments</button><button data-f="penthouse">Penthouses</button></div>
+    <div class="listings" id="listings"></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="page" data-page="/about">
+  <div class="sub"><div class="wrap"><h1>Timeless interiors, elevated living</h1></div></div>
+  <section class="about" style="padding-top:40px">
+    <div class="wrap grid">
+      <div class="ph small" style="background-image:var(--img-dining);margin-top:0"></div>
+      <div><p style="max-width:520px">Eloria began with a simple belief: a home should feel as good as it looks. We pair architecture, interior design and property advisory so buyers receive a space that is ready to live in.</p>
+      <p style="max-width:520px">From first viewing to final styling, one dedicated team handles every detail.</p><a href="#/contact" class="btn" data-link><span>Talk to us</span><em>›</em></a></div>
+      <div class="ph tall" style="background-image:var(--img-kitchen);margin-top:0"></div>
+    </div>
+  </section>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page" data-page="/contact">
+  <div class="sub"><div class="wrap"><h1>Let’s find your home</h1><p>Tell us what you are looking for and an advisor will reply within one business day.</p></div></div>
+  <div class="wrap contact" style="padding-top:30px">
+    <form id="form">
+      <input required placeholder="Full name"><input required type="email" placeholder="Email address">
+      <select><option>Buying</option><option>Selling</option><option>Interior design</option></select>
+      <textarea placeholder="Tell us about your dream space"></textarea>
+      <button class="btn" type="submit" style="border:0;background:none;padding:0;cursor:pointer"><span>Send message</span><em>›</em></button>
+      <div class="ok" id="ok">Thank you — we’ll be in touch shortly.</div>
+    </form>
+    <div class="info"><h3>Visit</h3><p>12 Gallery Row, Westlands<br>Nairobi, Kenya</p><h3>Call</h3><p>+254 700 000 000</p><h3>Email</h3><p>hello@eloria.com</p></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="top"><h2>Designing spaces that define luxury.</h2>
+      <ul><li><a href="#/" data-link>Home</a></li><li><a href="#/properties" data-link>Properties</a></li><li><a href="#/about" data-link>About</a></li><li><a href="#/contact" data-link>Contact</a></li></ul></div>
+    <div class="bot"><span>© 2026 ELORIA. All rights reserved.</span><span>Privacy · Terms</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
